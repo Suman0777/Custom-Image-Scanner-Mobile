@@ -26,6 +26,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-camera",
+        {
+          "recordAudioAndroid": true
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
